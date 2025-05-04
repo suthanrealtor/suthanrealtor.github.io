@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suthan Sinnarajah Realtor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .text-gold { color: #FFD700; }
+    .bg-gold { background-color: #FFD700; }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-green-800 to-black text-gold py-20 text-center px-4">
+    <h1 class="text-5xl font-bold mb-4">Suthan Sinnarajah</h1>
+    <p class="text-xl">Your Trusted Realtor for Buying, Selling, and Investing</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16 px-6 text-center bg-black">
+    <h2 class="text-3xl font-bold text-gold mb-8">Services</h2>
+    <div class="grid sm:grid-cols-3 gap-6">
+      <div class="bg-green-900 p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold text-gold">Buy</h3>
+        <p class="mt-2 text-sm text-white">Helping you buy with confidence and expertise.</p>
+      </div>
+      <div class="bg-green-900 p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold text-gold">Sell</h3>
+        <p class="mt-2 text-sm text-white">Helping you sell with confidence and expertise.</p>
+      </div>
+      <div class="bg-green-900 p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold text-gold">Invest</h3>
+        <p class="mt-2 text-sm text-white">Helping you invest with confidence and expertise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings -->
+  <section class="bg-black py-16 px-6">
+    <h2 class="text-3xl font-bold text-gold text-center mb-8">Featured Listings</h2>
+    <div class="grid sm:grid-cols-3 gap-6">
+      <div class="bg-green-900 rounded-xl overflow-hidden shadow-lg">
+        <div class="h-48 bg-gray-700 flex items-center justify-center text-white">Image 1</div>
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gold">Property Title 1</h3>
+          <p class="text-sm">Short description of the property.</p>
+        </div>
+      </div>
+      <div class="bg-green-900 rounded-xl overflow-hidden shadow-lg">
+        <div class="h-48 bg-gray-700 flex items-center justify-center text-white">Image 2</div>
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gold">Property Title 2</h3>
+          <p class="text-sm">Short description of the property.</p>
+        </div>
+      </div>
+      <div class="bg-green-900 rounded-xl overflow-hidden shadow-lg">
+        <div class="h-48 bg-gray-700 flex items-center justify-center text-white">Image 3</div>
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gold">Property Title 3</h3>
+          <p class="text-sm">Short description of the property.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-green-900 py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold text-gold mb-8">Client Testimonials</h2>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <blockquote class="bg-black p-6 rounded-xl text-white shadow-md">
+        <p class="italic">"Great experience!"</p>
+        <p class="mt-2 font-semibold text-gold">— Client 1</p>
+      </blockquote>
+      <blockquote class="bg-black p-6 rounded-xl text-white shadow-md">
+        <p class="italic">"Highly recommend!"</p>
+        <p class="mt-2 font-semibold text-gold">— Client 2</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-black py-16 px-6">
+    <h2 class="text-3xl font-bold text-gold text-center mb-8">Contact Suthan</h2>
+    <div class="flex flex-col sm:flex-row gap-10 justify-center text-white text-center">
+      <div>
+        <p class="mb-2">📞</p>
+        <p>416-995-0666</p>
+      </div>
+      <div>
+        <p class="mb-2">✉️</p>
+        <p>suthanrealtor@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form
+      action="https://formsubmit.co/suthanrealtor@gmail.com"
+      method="POST"
+      class="mt-10 max-w-lg mx-auto bg-green-900 p-6 rounded-xl shadow-md"
+    >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_subject" value="New Contact Form Submission" />
+      <div class="mb-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded text-black" />
+      </div>
+      <div class="mb-4">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded text-black" />
+      </div>
+      <div class="mb-4">
+        <textarea name="message" placeholder="Your Message" rows="4" required class="w-full p-3 rounded text-black"></textarea>
+      </div>
+      <button type="submit" class="bg-gold text-black w-full p-3 rounded font-bold">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-center py-6 text-white">
+    © 2025 Suthan Sinnarajah Real Estate
+  </footer>
+
+</body>
+</html>
